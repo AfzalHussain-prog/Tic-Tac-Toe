@@ -31,6 +31,7 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
     font-size: 7vmin;
     color: #735D78;
+    background-color: #f1e1e5;
 }
 .box:active{
     transform: scale(0.95);
@@ -45,4 +46,25 @@ body{
 }
 .reset:active{
     transform: scale(0.95);
+}
+.new{
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #e9d1ef;
+    padding: 10px 15px;
+}
+.new:active{
+    transform: scale(0.95);
+}
+h3{
+    color: black;
+    font-size: 6vmin;
+}
+.msg-cont{
+    height: 15vmin;
+
+}
+.hide{
+    display: none;
 }
